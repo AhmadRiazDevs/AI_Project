@@ -17,6 +17,7 @@ A Python-based traffic simulation project that models vehicle movement and traff
 - `images/` - Vehicle and signal images used by the simulation
 - `first.png` - Background image for the intersection
 
+
 ## Requirements
 
 Install the required Python package:
