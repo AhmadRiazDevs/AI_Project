@@ -67,6 +67,7 @@ stops = {'right': [580,580,580], 'down': [320,320,320], 'left': [810,810,810], '
 mid = {'right': {'x':705, 'y':445}, 'down': {'x':695, 'y':450}, 'left': {'x':695, 'y':425}, 'up': {'x':695, 'y':400}}
 rotationAngle = 3
 
+
 # Gap between vehicles
 gap = 15    # stopping gap
 gap2 = 15   # moving gap
@@ -83,7 +84,8 @@ class TrafficSignal:
         self.maximum = maximum
         self.signalText = "30"
         self.totalGreenTime = 0
-        
+
+
 class Vehicle(pygame.sprite.Sprite):
     def __init__(self, lane, vehicleClass, direction_number, direction, will_turn):
         pygame.sprite.Sprite.__init__(self)
